@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="author" content="Abdullah Bin Muqbil" />
+    <meta
+      name="license"
+      content="Code: MIT. Educational content: CC BY-NC-SA 4.0. © 2026 Abdullah Bin Muqbil."
+    />
+    <title>Classical vs Quantum — Interactive Simulator</title>
+    <!-- Render-blocking on purpose: sets the theme before first paint so a
+         light-theme visitor never sees a flash of dark. Must stay a classic
+         external script — the CSP forbids inline, and a module would defer. -->
+    <script src="./theme-init.js"></script>
+    <meta
+      name="description"
+      content="An interactive museum for how classical and quantum computers represent and process information."
+    />
+    <script type="module" crossorigin src="/Classical-VS-Quantum/assets/index--7xtfBEn.js"></script>
+    <link rel="modulepreload" crossorigin href="/Classical-VS-Quantum/assets/useApp-DElAdbAy.js">
+    <link rel="modulepreload" crossorigin href="/Classical-VS-Quantum/assets/proxy-BFwpwoTH.js">
+    <link rel="stylesheet" crossorigin href="/Classical-VS-Quantum/assets/index-BtchkIU5.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
